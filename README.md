@@ -1,7 +1,7 @@
 
 # RoboMeet
 
-Landing Page com temática sobre plataforma de chamada de reuniões online.
+Landing Page com temática sobre plataforma de reuniões online.
 
 
 ## Rodando localmente

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://kit.fontawesome.com/f9da2f246e.js" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>Robo Meet</title>
+</head>
+<body>
+    
+    <a href="#logo" class="to-top"><i class="fa-solid fa-up-long"></i></a> 
+
+    <header>
+
+        <div id="logo">
+            <p> <i class="fa-solid fa-robot"></i> Robo<b>Meet</b></p>
+        </div>
+
+        <div id="menu">
+            <ul>
+                
+                <li><a href="#">FAQ</a> </li>
+                <li><a href="#">USE CASES</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">NEWSLETTER</a></li>
+                <li> <a href="#signup" class="signUpLink">SIGN UP FOR FREE</a> </li>
+                
+            </ul>
+
+        </div>
+
+
+    </header>
+
+
+    <main>
+
+        <section id="homeSection">
+
+        <div class="text">
+            <h1>Wherever you are, you're better together.</h1>
+            <p>Virtual Office for remote teams</p>
+            <a href="#signup" class="signUpLink">SIGN UP FOR FREE</a>
+        </div>
+
+
+        <div class="photo">
+            <img src="./assets/home_photo.png" alt="Home_Photo">
+        </div>
+
+        </section>
+
+       
+        <section id="beforeSection">
+
+        <div class="photo"> 
+            <img src="./assets/support_share.png">
+        </div>
+
+        <div class="text">
+            <h1>Supports video & screen share</h1>
+            <ul id="features">
+                <li>Optionally move from audio to HD video</li>
+                <li>Share yours designs, features, and slides</li>
+                <li>Securely encrypted & transmitted using WebRTC</li>
+            </ul>
+        </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <h1>Ready to start?</h1>
+        <button id="signup" class="signUpLink">SIGN UP FOR FREE</button>
+        <img src="assets/ready_to_start.png">
+    </footer>
+   
+    <dialog>
+
+
+       <a id="closeButton"> <i class="fa-solid fa-xmark fa-2x"></i></a>
+        <h1>Let's start</h1>
+
+        <form>
+            <div id="inputDiv">
+                <p><label for="nome">Name: <input type="text" name="nome" id="name"></label></p> 
+                <p><label for="email">E-mail: <input type="email" name="email" id="email"></label></p>
+            </div>
+            
+            <button class="signUpLink">SIGN UP</button>
+        </form>
+
+    </dialog>
+
+<script src="./script.js"></script>
+
+</body>
+</html>

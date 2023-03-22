@@ -9,7 +9,7 @@ Landing Page com temática sobre plataforma de chamada de reuniões online.
 Clone o projeto
 
 ```bash
-  git clone https://github.com/Gustavo-Targino/robo_meet
+  git clone https://github.com/Gustavo-Targino/RoboMeet
 ```
 
 Abra o arquivo "index.html"
